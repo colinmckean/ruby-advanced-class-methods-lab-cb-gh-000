@@ -51,4 +51,7 @@ class Song
     song.name = splits[1].split(".")[0]
     song
   end
+  def self.destroy_all
+    self.all = []
+  end
 end
